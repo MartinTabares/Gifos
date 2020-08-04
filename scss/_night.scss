@@ -1,0 +1,139 @@
+.night *{
+    padding: 0;
+    margin: 0;
+    background: #1b0039;
+}
+// HEADER
+.night header {
+    background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+    box-shadow: 0 1px 0 0 #110038;
+    font-size: 12px;
+    width: 1438px;
+    height: 23px;
+    font-family: ChakraPetch-Regular;
+    font-size: 12px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+
+// END HEADER
+// NAVBAR
+#menu {
+    display: flex;
+    width: 1438px;
+}
+
+.night #logoNight {
+    margin: 35px 685.4px 16px 91px;
+    width: 102.6px;
+    height: 64px;
+}
+
+.night #btnCrear {
+    background: #EE3EFE;
+border: 1px solid #110038;
+box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+    padding: auto;
+    margin: 44px 16px 35px 0;
+    width: 144px;
+    height: 36px;
+    font-family: ChakraPetch-Regular;
+    font-size: 16px;
+    color: #110038;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 18px;
+}
+
+.night #btnTema {
+    background: #EE3EFE;
+border: 1px solid #110038;
+box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+    margin: 44px 0 35px 16px;
+    width: 131px;
+    height: 36px;
+    font-family: ChakraPetch-Regular;
+    font-size: 16px;
+    color: #110038;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 18px;
+}
+
+.night #tema {
+    background: #EE3EFE;
+border: 1px solid #110038;
+box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+    margin: 44px 0 35px 0;
+    width: 36px;
+    height: 36px;
+    font-family: ChakraPetch-Regular;
+}
+
+#menu p {
+    margin-top: 53px;
+    margin-left: 16.5px;
+    width: 76px;
+    height: 18px;
+    font-family: ChakraPetch-Regular;
+    font-size: 16px;
+    color: #110038;
+    letter-spacing: 0;
+    line-height: 18px;
+}
+
+// END NAVBAR
+// SEARCH
+    #buscar {
+    width: 1200px;
+    height: 99px;
+    background: #E6E6E6;
+    box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+    margin-left: 100px;
+}
+
+#buscar p {
+    width: 1194px;
+    height: 24px;
+    background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+    margin: 0px 3px;
+    font-family: ChakraPetch-Bold;
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+
+#buscar #buscador {
+    display: flex;
+}
+
+#buscar #buscador input {
+    width: 1057px;
+    height: 48px;
+    margin: 12px 8px 12px 15px;
+    padding-left: 16px;
+    font-family: ChakraPetch-Regular;
+    font-size: 16px;
+    color: black;
+    letter-spacing: 0;
+    line-height: 22px;
+    background: #FFFFFF;
+    border: 1px solid #979797;
+    box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+}
+
+#buscar #buscador button {
+    width: 102px;
+    height: 36px;
+    margin-top: 16px;
+    margin-right: 18px;
+    background: #E6E6E6;
+    border: 1px solid #808080;
+    box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+}
+
+#buscar #buscador button img {
+    margin-right: 16px;
+}
+
+// END SEARCH

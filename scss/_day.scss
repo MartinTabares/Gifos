@@ -1,0 +1,236 @@
+.day *{
+    padding: 0;
+    margin: 0;
+    background: #FFFFFF;
+}
+// HEADER
+.day header {
+    background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+    box-shadow: 0 1px 0 0 #110038;
+    font-size: 12px;
+    width: 1438px;
+    height: 23px;
+    font-family: ChakraPetch-Regular;
+    font-size: 12px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+
+// END HEADER
+// NAVBAR
+#menu {
+    display: flex;
+}
+
+#logo {
+    margin: 35px 685.4px 16px 91px;
+    width: 102.6px;
+    height: 64px;
+}
+#btnCrear {
+    background: #F7C9F3;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+    padding: auto;
+    margin: 44px 16px 35px 0;
+    width: 144px;
+    height: 36px;
+    font-family: ChakraPetch-Regular;
+    font-size: 16px;
+    color: #110038;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 18px;
+}
+
+#btnTema {
+    background: #F7C9F3;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+    margin: 44px 0 35px 16px;
+    width: 131px;
+    height: 36px;
+    font-family: ChakraPetch-Regular;
+    font-size: 16px;
+    color: #110038;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 18px;
+}
+
+#tema {
+    background: #F7C9F3;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+    margin: 44px 0 35px 0;
+    width: 36px;
+    height: 36px;
+    font-family: ChakraPetch-Regular;
+}
+
+#menu p {
+    margin-top: 53px;
+    margin-left: 16.5px;
+    width: 7px;
+    height: 18px;
+    font-family: ChakraPetch-Regular;
+    font-size: 16px;
+    color: #110038;
+    letter-spacing: 0;
+    line-height: 18px;
+}
+
+// END NAVBAR
+// SEARCH
+#buscar {
+    width: 1200px;
+    height: 99px;
+    background: #E6E6E6;
+    box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+    margin-left: 100px;
+}
+
+#buscar p {
+    width: 1194px;
+    height: 24px;
+    background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+    margin: 0px 3px;
+    font-family: ChakraPetch-Bold;
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+
+#buscar #buscador {
+    display: flex;
+}
+
+#buscar #buscador input {
+    width: 1057px;
+    height: 48px;
+    margin: 12px 8px 12px 15px;
+    padding-left: 16px;
+    font-family: ChakraPetch-Regular;
+    font-size: 16px;
+    color: black;
+    letter-spacing: 0;
+    line-height: 22px;
+    background: #FFFFFF;
+    border: 1px solid #979797;
+    box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+}
+
+#buscar #buscador button {
+    width: 102px;
+    height: 36px;
+    margin-top: 16px;
+    margin-right: 18px;
+    background: #E6E6E6;
+    border: 1px solid #808080;
+    box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+}
+
+#buscar #buscador button img {
+    margin-right: 16px;
+}
+
+// END SEARCH
+// SUGGESTION
+#suggestion p {
+    width: 1200px;
+    height: 32px;
+    margin-left: 100px;
+    margin-top: 64px;
+    background: #FFFAFE;
+    border: 1px solid #E6BBE2;
+    box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #80687D;
+    font-family: ChakraPetch-Regular;
+    font-size: 14px;
+    color: #110038;
+    letter-spacing: 0;
+}
+
+#suggestion #container {
+    display: inline-flex;
+    margin-top: 16px;
+    margin-left: 100px;
+}
+
+#suggestion #container .imgSugerencias {
+    width: 288px;
+    height: 313px;
+    margin-right: 16px;
+    background: #E6E6E6;
+    box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+}
+
+#suggestion #container .imgTitulo {
+    width: 280px;
+    height: 24px;
+    margin: 3px 4px 2px 4px;
+    background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+}
+
+#suggestion #container .imgTitulo img {
+    float: right;
+    width: 16px;
+    height: 14px;
+    margin-top: 5px;
+    margin-right: 4px;
+
+}
+
+// END SUGGESTION
+// TRENDING
+#trending p {
+    width: 1200px;
+    height: 32px;
+    margin-left: 100px;
+    margin-top: 64px;
+    background: #FFFAFE;
+    border: 1px solid #E6BBE2;
+    box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #80687D;
+    font-family: ChakraPetch-Regular;
+    font-size: 14px;
+    color: #110038;
+    letter-spacing: 0;
+}
+
+#trending #containerTrending {
+    width: 1200px;
+    margin-left: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#trending #containerTrending .imgTrending {
+    width: 288px;
+    height: 298px;
+    background: #E6E6E6;
+    display: inline-flex;
+    margin-top: 16px;
+    margin-left: 16px;
+}
+
+#trending #containerTrending #imgTrendingUno {
+
+    width: 294px;
+    height: 296px;
+    background: #E6E6E6;
+    box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+    margin-left: 0;
+    margin-right: -6px;
+}
+
+#trending #containerTrending #imgTrendingDos {
+    width: 592px;
+    height: 296px;
+    margin-left: 0;
+}
+
+#trending #containerTrending #imgTrendingCuatro {
+    width: 592px;
+    height: 296px;
+}
+
+// END TRENDING
