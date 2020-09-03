@@ -1,0 +1,238 @@
+.day * {
+  background: #FFFFFF;
+}
+
+.day header {
+  background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+  width: 100%;
+  height: 23px;
+}
+
+#menu {
+  display: flex;
+  width: 100%;
+  margin: auto;
+}
+
+#logo {
+  margin: 35px auto 16px 0px;
+  width: 102.6px;
+  height: 64px;
+}
+
+#btnCrear {
+  background: #F7C9F3;
+  border: 1px solid #110038;
+  box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+  padding: auto;
+  margin: 44px 16px 35px 0;
+  width: 144px;
+  height: 36px;
+  font-family: ChakraPetch-Regular;
+  font-size: 16px;
+  color: #110038;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 18px;
+}
+
+#btnTema {
+  background: #F7C9F3;
+  border: 1px solid #110038;
+  box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+  margin: 44px 0 35px 16px;
+  width: 131px;
+  height: 36px;
+  font-family: ChakraPetch-Regular;
+  font-size: 16px;
+  color: #110038;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 18px;
+}
+
+#menu a {
+  text-decoration: none;
+  margin-top: 53px;
+  margin-left: 16.5px;
+  font-family: ChakraPetch-Regular;
+  font-size: 16px;
+  color: #110038;
+}
+
+#buscar {
+  width: 100%;
+  height: 99px;
+  background: #E6E6E6;
+  box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+  margin: auto;
+}
+
+#buscar p {
+  width: 100%;
+  height: 23px;
+  background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+  margin: auto;
+  font-family: ChakraPetch-Bold;
+  font-size: 14px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+}
+
+#buscar #buscador {
+  display: flex;
+}
+
+#buscar #buscador input {
+  width: 100%;
+  height: 48px;
+  margin: 12px 8px 12px 0px;
+  padding-left: 16px;
+  font-family: ChakraPetch-Regular;
+  font-size: 16px;
+  color: black;
+  background: #FFFFFF;
+  border: 1px solid #979797;
+  box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+}
+
+#buscar #buscador button {
+  width: 102px;
+  height: 52px;
+  margin-top: 12px;
+  background: #E6E6E6;
+  border: 1px solid #808080;
+  box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+}
+
+#buscar #buscador button img {
+  margin-right: 12px;
+}
+
+#buscar #containerbusqueda {
+  display: flex;
+  margin-top: 16px;
+  width: 100%;
+}
+
+#buscar #containerbusqueda .imgBusqueda {
+  width: 25%;
+  height: 300px;
+  margin-left: 8px;
+  margin-right: 8px;
+  background: #E6E6E6;
+}
+
+#buscar #containerbusqueda .imgTitulo img {
+  float: right;
+  width: 16px;
+  height: 14px;
+}
+
+#buscar #containerbusqueda .imgTitulo {
+  height: 24px;
+  margin: 3px 4px 2px 0px;
+  background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+}
+
+#suggestion {
+  width: 100%;
+  margin: auto;
+}
+
+#suggestion #titulo {
+  width: 100%;
+  height: 32px;
+  margin-top: 350px;
+  background: #FFFAFE;
+  border: 1px solid #E6BBE2;
+  box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #80687D;
+  font-family: ChakraPetch-Regular;
+  font-size: 14px;
+}
+
+#suggestion #container {
+  display: flex;
+  margin-top: 16px;
+}
+
+#suggestion #container .imgSugerencias {
+  width: 25%;
+  height: 300px;
+  margin-left: 8px;
+  margin-right: 8px;
+  background: #E6E6E6;
+}
+
+#suggestion #container .imgTitulo {
+
+  height: 24px;
+  margin: 3px 4px 2px 4px;
+  background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+}
+
+#suggestion #container .imgTitulo img {
+  float: right;
+  width: 16px;
+  height: 14px;
+}
+
+#trending {
+  width: 100%;
+  margin: auto;
+}
+
+#trending #trend {
+  width: 100%;
+  height: 32px;
+  margin-top: 50px;
+  background: #FFFAFE;
+  border: 1px solid #E6BBE2;
+  box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #80687D;
+  font-family: ChakraPetch-Regular;
+  font-size: 14px;
+}
+
+#trending #containerTrending .imgTrending {
+  width: 24%;
+  height: 300px;
+  background: #E6E6E6;
+  display: inline-flex;
+  margin-top: 16px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+#trending #containerTrending #imgTrendingDos {
+  width: 49%;
+}
+
+#trending #containerTrending #imgTrendingCuatro {
+  width: 49%;
+}
+
+
+.night * {
+  background: #1b0039;
+}
+
+.night header {
+  background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+  width: 100%;
+  height: 23px;
+}
+
+#logoNight {
+  margin: 35px auto 16px 0px;
+  width: 102.6px;
+  height: 64px;
+}
+
+.night #menu a {
+  text-decoration: none;
+  margin-top: 53px;
+  margin-left: 16.5px;
+  font-family: ChakraPetch-Regular;
+  font-size: 16px;
+  color: #ffffff;
+}
